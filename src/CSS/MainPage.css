@@ -1,0 +1,125 @@
+.homePage_margin {
+    margin: auto;
+    height: auto;
+    margin-top: 30px;
+    display: block;
+    border: 3px solid black;
+    min-width: 720px;
+    max-width: 720px;
+    border: 1px solid white;
+    border-color: rgba(255, 255, 255, 0.75);
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    box-shadow: 0 0 4px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 0 0 4px rgba(50, 50, 50, 0.5);
+    -webkit-box-shadow: 0 0 4px rgba(50, 50, 50, 0.5);
+    padding: 0.5em;
+}
+
+.homePage_content {
+    color: black;
+}
+
+.homePage_content input {
+    width: 40%;
+}
+
+.homePage_header {
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    width: 100%;
+}
+
+.seperate_content {
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 12px;
+    width: 100%;
+}
+
+.homePage_header_body {
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    width: 100%;
+}
+
+.table_form {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table_form td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.table_form tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.standard_button {
+    background-color: #0c2b5a;
+    color: #fff;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+/* Matrix */
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.row div {
+    width: 50%;
+}
+
+.noMargin {
+    margin: 0px;
+    height: 200px;
+}
+
+.one {
+    background-color: #b3ffc7;
+    border-style: groove;
+}
+
+.two {
+    background-color: #bbb5ff;
+    border-style: groove;
+}
+
+.three {
+    background-color: #fffeb8;
+    border-style: groove;
+}
+
+.four {
+    background-color: #ffb8b8;
+    border-style: groove;
+}
+
+.width_100 {
+    width: 100%;
+}
+
+.width_50 {
+    width: 75px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}

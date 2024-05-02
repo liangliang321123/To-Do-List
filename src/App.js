@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import MainPage from './Component/MainPage';
+import EditPage from './Component/EditPage';
+import Eisenhower from './Component/Eisenhower';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path='/'
+          element={<MainPage />} />
+        <Route path='/EDIT/:ID'
+          element={<EditPage />} />
+        <Route path='/ESHG/'
+          element={<Eisenhower />} />
+      </Routes>
+    </Router>
+
   );
 }
 
